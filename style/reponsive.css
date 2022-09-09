@@ -1,0 +1,55 @@
+/* Tablet */
+@media   (min-width: 740px ) and (max-width: 1023px) {
+    .member{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+}
+/* Mobile */
+@media   (max-width: 739px )  { 
+    .display-none-mb{
+        display: none;
+    }
+    .heading h2{
+        font-size: 2.8em;
+        text-align: left;
+    }
+}   
+
+/* Tablet and Mobile */
+@media (max-width:1023px){
+    .member{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .display-none-mb-tb{
+        display: none;
+    }
+    .pet-img-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pic-meet{
+        position: static;
+        margin: 0.5em 0 ;
+    }
+    .pic-meet> img{
+        width: 100%;
+    }
+   
+    
+}
+/* Special break point */
+@media (max-width: 780px){
+    .display-none-mb{
+        display: none;
+    }
+    .nav-on-mobile {
+        display: block;
+    }
+    .pic-meet{
+        position: static;
+    }
+    
+}
